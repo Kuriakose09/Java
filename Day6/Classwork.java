@@ -3,7 +3,7 @@ package Day6;
 
 public class Classwork{
     public static void main(String[] args){
-        int arr[] = {20, 15, 30, 9, 25};
+        int arr[] = {20, 15, 30, 0, 25};
         int flag = 0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]==0){
