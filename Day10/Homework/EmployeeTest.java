@@ -9,7 +9,6 @@ class EmployeeTest{
         Employee[] Employees = new Employee[num];
         for(int i=0;i<num;i++){
             Employees[i] = new Employee();
-            Employees[i] = new Employee();
             System.out.print("Enter the name of Employee"+(i+1)+":");
             String name = input.nextLine();
             Employees[i].Setname(name);
